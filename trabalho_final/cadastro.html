@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/menu.css">
+</head>
+<style>
+    body {
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./imagens/fundo-site.jpg");
+        background-position: center;
+      }
+    </style>
+<body>
+    <header>
+        <h1 class="titulo-cadastro">
+            Bem vindo a tela de cadastro!
+        </h1>
+    </header>
+    <main>
+            <nav>
+                <ul class="lista-inline">
+                    <li><a class="sem-linha" href="menu.html">Menu</a></li>
+                    <li><a class="sem-linha" href="cadastro.html">Cadastro</a></li>
+                    <li><a class="sem-linha" href="filmes.html">Filmes</a></li>
+                    <li><a class="sem-linha" href="planos.html">Planos</a></li>
+                </ul>
+            </nav>
+            <br>
+            <p class="introducao">
+                Ao preencher este formulário, eu concordo em fornecer informações precisas e verdadeiras. Autorizo o uso dos meus dados para os fins estabelecidos nos termos de uso do serviço. Declaro que li e compreendi as políticas de privacidade do serviço.
+                Lembre-se de adaptar o formulário conforme necessário, adicionando ou removendo campos de acordo com os requisitos do cadastro em questão.
+            </p>
+            <br>
+            <form class="cor-formulario" id="form1" name="form1" action="filmes.html">
+                <h1 class="titulo-formulario">Cadastre-se</Cadastre-se></h1>
+            <br>
+            <label for="txtnome">Nome:</label> <input type="text" name="textnome" id="txtnome">
+            <br>
+            <label for="txtemail">Email:</label><input type="email" name="textemail" id="txtemail">
+            <br>
+            <label for="txtsenha">Senha:</label><input type="senha" name="textsenha" id="txtsenha">
+            <br>
+            <label for="txtendereco">Endereço:</label><input type="endereco" name="textendereco" id="txtendereco">
+            <br>
+            <label for="txtcelular">Celular:</label><input type="celular" name="textcelular" id="txtcelular">
+            <br>
+            <button id="btnlimpar" name="btnlimpar" type="reset">LIMPAR</button>&nbsp;<button id="btncadastro" name="btncadastro" type="submit">LOGIN</button>
+            </form>
+    </main>
+</body>
+</html>

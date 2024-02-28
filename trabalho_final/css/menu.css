@@ -1,0 +1,226 @@
+header{
+    color: red;
+    text-align: center;
+    font-family: sans-serif;
+    margin-left: -15px;
+}
+
+.titulo-formulario{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#btncadastro{
+    color: white;
+    background-color: red;
+    border-radius: 2px;
+    border: none;
+    padding: 0.5rem 0.5rem;
+    width: 140px;
+    text-align: center;
+}
+
+#btnlimpar{
+    border-radius: 2px;
+    text-decoration: underline;
+    border: none;
+    padding: 0.5rem 0.5rem;
+}
+.cor-formulario{
+    border: 500px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 500px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 0 5%;
+    color: white;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+input {
+    margin-bottom: 10px;
+    align-items: center;
+    display: flex;
+    width: 200px;
+    font-size: 1.0em;
+}
+
+label{
+    font-size: 1.2em;
+}
+
+.titulo-cadastro{
+    text-align: center;
+    color: red;
+}
+
+.titulo-filmes{
+    text-align: center;
+    color: red;
+}
+
+.botao-entrar{
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: none;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    width: auto;
+    font-size: 1.5rem;
+    font-weight: 500;
+    min-height: 3.5rem;
+    padding: 0.75rem 1.5rem;
+}
+
+.subtitulo{
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.subtitulo-2{
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    font-family:"Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;"
+}
+
+.subtitulo-3{
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+    text-align: center;
+    color: white;
+    font-family:"Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;"
+
+}
+
+.botao-email{
+    width: 300px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    min-height: 3.5rem;
+    padding: 0.75rem 1.5rem;
+    text-align: left;
+    background-color: transparent;
+    border-radius: 10px;
+    color: white;
+    margin-left: 38%;
+}
+
+.botao-vermelho{
+    width: auto;
+    font-size: 1.5rem;
+    font-weight: 500;
+    min-height: 3.5rem;
+    padding: 0.75rem 1.5rem;
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: none;
+}
+
+.introducao{
+    font-family: sans-serif;
+    font-size: 1.5em;
+    color: white;
+    text-align: justify;
+}
+
+.lista-inline li{
+    display: inline;
+    
+    margin-left: 300px;
+    font-size: 1.9em;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sem-linha{
+    text-decoration: none;
+    color: white;
+}
+
+.batman-menu {
+    font-family: 'Open Sans',sans-serif;
+    line-height: 22px;
+    float: right;
+    margin-right: 1110px;
+    color: white;
+}
+
+.menu-sala{
+    margin-top: -561px;
+    margin-left: 413px;
+    border: 1px solid #ccc;
+    padding: 8px 10px 1px 10px;
+    width: 500px;
+    height: 48px;
+    border-radius: 5px;
+    text-align: left;
+    display: block;   
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    color: white;
+}
+
+.barra-de-pesquisa{
+    float: right;
+}
+
+-----------------------------------------------------------
+h2{
+    text-align: left;
+    color: white;
+}
+
+.sem-linha{
+    text-decoration: none;
+    color: white;
+}
+
+.imagem-lado{
+    display: flex;
+}
+
+.imagem-filmes{
+    width: 350px; 
+    height: 250px;
+    margin-left: 35px;
+    border-radius: 50px;
+}
+
+figcaption{
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
+
+.preco-plano{
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    height: 400px;
+    width: 800px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    margin-left: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.planos{
+    display: flex;
+    margin-top: 50px;
+}
